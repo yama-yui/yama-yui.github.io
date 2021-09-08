@@ -1,5 +1,6 @@
 @media screen and (max-width:1023px) {
     body {    
+        width: 95%;
         margin-right: auto;
         margin-left:auto;
         font-family: 'Noto Sans JP'
