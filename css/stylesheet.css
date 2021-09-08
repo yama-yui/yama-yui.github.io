@@ -1,4 +1,18 @@
-
+@media screen and (max-width:1023px) {
+    body {    
+        margin-right: auto;
+        margin-left:auto;
+        font-family: 'Noto Sans JP'
+    }
+}
+@media screen and (min-width:1024px) {
+    body {    
+        max-width: 700px;
+        margin-right: auto;
+        margin-left:auto;
+        font-family: 'Noto Sans JP'
+    }
+}
 
 .hukidasi {
 position: relative;
