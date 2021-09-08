@@ -1,0 +1,137 @@
+body { font-family: "Noto Sans JP"; }
+
+.hukidasi {
+position: relative;
+background-color: #ffc4c4;
+padding: 10px;
+color: #333;
+border-radius: 10px;
+}
+
+.hukidasi::before {
+content: "";
+position: absolute;
+border: 12px solid transparent;
+border-top: 12px solid #ffc4c4;
+top: 100%;
+left: 5%;
+}
+
+.hukidasi p {
+margin: 0;
+padding: 0;
+}
+
+.ribon{
+    font-size: 1.2em;/* 文字の大きさ */
+    font-weight: bold;/* 文字の太さ */
+    color: #fff;/* 文字の色 */
+    background: #F9B8CD;/* 背景色 */
+    border-radius: 8px;/* 四隅の丸み */
+    -webkit-border-radius: 8px;/* 四隅の丸みと同じ数字に */
+    -moz-border-radius: 8px;/* 四隅の丸みと同じ数字に */
+    position: relative;
+    margin: 0 0 1.5em;
+    padding: 0.4em 0.4em 0.4em 2em;
+}
+.ribon:before,
+.ribon:after {
+     content: "";
+    position: absolute;
+    display: block;
+}
+.ribon:before{
+    top: -0.1em;
+    left: 0.5em;
+    width: 20px;
+    height: 23px;
+    padding: 5px 0 0 0;
+    background: #f69;/* リボン部分の色 */
+    text-align: center;
+}
+.ribon:after{
+    top: 0.8em;
+    left: 0.5em;
+    width: 0;
+    height: 0;
+    border: 10px solid;
+    border-color: transparent #f69;/* リボンの切りっぱなし部分の色 */
+}
+
+.tenten{
+    font-size: 1.143em;/* 文字の大きさ */
+    font-weight: bold;/* 文字の太さ */
+    color: #5C4747;/* 文字の色 */
+    border-bottom: 2px dashed #D26466;/* 文字下の点線の太さ・種類・カラー */
+    margin: 0 0 1.5em;
+    padding: 0.2em 0 0 1.7em;
+    position: relative;
+}
+.tenten:before{
+    background: #d48789;/* 左上四角部分の色 */
+    top: 0;/* 左上四角部分の位置 */
+    left: 0.5em;/* 左上四角部分の位置 */
+    height: 12px;/* 左上四角の大きさ */
+    width: 12px;/* 左上四角の大きさ */
+    position: absolute;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    content: "";
+}
+.tenten:after{
+    background:#d26466;/* 左下四角部分の色 */
+    top: 0.8em;/* 左下四角部分の位置 */
+    left: 0.2em;/* 左下四角部分の位置 */
+    height: 8px;/* 左下四角の大きさ */
+    width: 8px;/* 左下四角の大きさ */
+    position: absolute;
+    transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    content: "";
+}
+
+.box{
+    font-size: 1.2em;/* 文字の大きさ */
+    font-weight: bold;/* 文字の太さ */
+    color: #fff;/* 文字の色 */
+    background: #E07C7D;/* 背景色 */
+    box-shadow: 0 -10px 0 0 #BB7374,/* BOX上の影色の部分大きさと色 */
+10px 0 0 0 #E07C7D,/* BOX前面左部分の大きさと色(背景色と同じ色にする) */
+-10px 0 0 0 #E07C7D,/* BOX前面右部分の大きさと色(背景色と同じ色にする) */
+0 3px 3px 0 rgba(0,0,0,0.1);/* BOX下の影の位置と色 */
+    margin-bottom: 20px;
+    margin-top:10px;
+    padding:10px;
+    position:relative;
+}
+.box:before{
+    border-width:0 0 10px 10px;
+    border-style:solid;
+    border-color:transparent;
+    border-bottom-color: #EA8A8B;/* BOX左上の三角部分の色 */
+    top:-10px;
+    left:-10px;
+    width:0;
+    height:0;
+    position:absolute;
+    content:" ";
+}
+.box:after{
+    border-width:0 10px 10px 0;
+    border-style:solid;
+    border-color:transparent;
+    border-bottom-color: #EA8A8B;/* BOX右上の三角部分の色 */
+    top:-10px;
+    left:100%;
+    width:0;
+    height:0;
+    position:absolute;
+    content:" ";
+}
+
