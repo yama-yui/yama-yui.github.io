@@ -166,3 +166,101 @@ padding: 0;
     content:" ";
 }
 
+.example {/*親div*/
+    position: relative;/*相対配置*/
+    }
+  
+  .example p {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は白に*/
+    top: 0;
+    left: 75%;
+    }
+  
+  .example img {
+    width: 100%;
+    }
+    
+   .example {
+    position: relative;
+    }
+  
+  .example a {/*aタグを画像の真ん中に*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    /*以下装飾*/
+    margin:0;/*余計な隙間を除く*/
+    font-size: 20px;/*文字サイズ*/
+    border: solid black 2px; /*線で囲う*/
+    padding: 7px;/*文字と線の間の余白*/
+    color: black;/*文字色*/
+    text-decoration: none;/*下線を表示させない*/
+    }
+  
+  .example a:hover{/*カーソルを当てたとき*/
+    background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+    }
+  
+  .example img {
+    width: 100%;
+    }
+    
+    .tate {
+    padding: 1rem 2rem;
+    border-left: 4px solid #000;
+  }
+  
+  *, *:before, *:after {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+  }
+  .cp_cssslider {
+      width: 300px;
+      padding-top: 200px; /* 画像の高さ */
+      position: relative;
+      margin: 2em auto;
+      text-align: center;
+  }
+  .cp_cssslider > img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: all 0.5s;
+      border-radius: 3px;
+      box-shadow:0px 0px 5px 0px rgba(0,0,0,0.3);
+  }
+  .cp_cssslider input[name='cp_switch'] {
+      display: none;
+  }
+  /* サムネイル */
+  .cp_cssslider label {
+      margin: 15px 5px 0 5px;
+      border: 2px solid #ffffff;
+      display: inline-block;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      opacity: 0.6;
+      border-radius: 3px;
+  }
+  .cp_cssslider label:hover {
+      opacity: 0.9;
+  }
+  .cp_cssslider label img {
+      display: block;
+      width: 40px;
+      border-radius: 2px;
+  }
+  .cp_cssslider input[name='cp_switch']:checked + label {
+      border: 2px solid #FF7043;
+      opacity: 1;
+  }
+  .cp_cssslider input[name='cp_switch'] ~ img {
+      opacity: 0;
+  }
+  .cp_cssslider input[name='cp_switch']:checked + label + img {
+      opacity: 1;
+  }
