@@ -260,6 +260,11 @@ padding: 0;
   text-shadow: 1px 1px 0 #fff, 3px 3px 0 #f1e3df;
 }
 
+.birthdayshadow{
+    color: #00BCD4;
+    text-shadow: 2px 2px #fff, 5px 5px rgba(0, 188, 212, 0.4);
+}
+
     
   
  
