@@ -224,6 +224,41 @@ padding: 0;
     display: inline-block;
     box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
     }
+/*ゆいちゃんのたんじょうび用*/
+.summer_bargain {
+  margin: 0 auto;
+  width: 310px;
+}
+
+.summer_bargain_inner {
+  border-radius: 3px;
+  color: #37bcf2;
+  font-family:"Maru Folk Heavy", sans-serif;
+  font-size: 42px;
+  font-style: italic;
+  letter-spacing: 0;
+  line-height: 1.2;
+  padding: 3px 0;
+  text-shadow: 2px 2px 0 #fff, 5px 5px 0 #dfe8f1;
+  text-align: center;
+}
+
+.summer_bargain_inner .green{
+  color: #06d9a5;
+}
+
+.summer_bargain_inner .last{
+  letter-spacing: 10px;
+}
+
+.summer_bargain_inner strong {
+  display: block;
+  color: #e97792;
+  font-size: 24px;
+  font-family: "Maru Folk Medium", sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0 #fff, 3px 3px 0 #f1e3df;
+}
 
     
   
