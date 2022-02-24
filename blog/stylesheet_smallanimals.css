@@ -1,0 +1,373 @@
+heading06 {
+ position: relative;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ font-size: 26px;
+ text-align: center;
+}
+
+.heading06 span {
+ position: relative;
+ z-index: 2;
+}
+
+.heading06::before {
+ content: attr(data-en);
+ position: absolute;
+ top: -20px;
+ left: 50%;
+ transform: translateX(-50%);
+ color: rgba(224,66,114,0.2);
+ font-size: 80px;
+ font-style: italic;
+}
+
+.heading06::after {
+ content: '';
+ position: absolute;
+ bottom: 0;
+ left: 50%;
+ transform: translate(-50%) rotate(30deg);
+ width: 1px;
+ height: 40px;
+ background-color: rgba(224,66,114,1);
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table tr{
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+}
+
+table tr:hover{
+  background-color: #d4f0fd;
+}
+
+table th,table td{
+  text-align: center;
+  width: 25%;
+  padding: 15px 0;
+}
+
+table td.icon{
+  background-size: 35px;
+  background-position: left 5px center;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+}
+
+table td.icon.bird{
+  background-image: url(icon-bird.png)
+}
+
+table td.icon.whale{
+  background-image: url(icon-whale.png)
+}
+
+table td.icon.crab{
+  background-image: url(icon-crab.png)
+}
+
+
+
+.niku {
+  position: relative;/*相対位置*/
+  padding-left: 1.2em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/
+  color: #7b6459;/*文字色*/
+}
+
+.niku:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f1b0";/*アイコンのユニコード*/
+  font-weight: 900;
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0;/*アイコンの位置*/
+  top: 0;/*アイコンの位置*/
+  color: #ff938b; /*アイコン色*/
+}
+
+.kakomi-te1 {
+ margin: 2em auto; 
+ padding: 1em 1.5em;
+ width: 90%; /*幅の調節*/
+ color: #777777; /* 文字色 */
+ background-color: #fff; /* 背景色 */
+ border: 4px solid #f6bfbc; /*線の太さ・色*/
+ border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+}
+
+.openbox input {
+display: none; /* チェックボックスを隠す */
+}
+.openbox .boxshow {
+height: 0;
+opacity: 0; /* 折り畳んだ時に中を透明にする */
+}
+.inputcss:checked + .boxshow {
+height: auto;
+opacity: 1; /*クリックやタップで中を表示させる*/
+}
+.openbox label {
+background: #babbbb;
+padding: 5px 10px;
+}
+
+.triple-menu-box {
+  border: solid 1px #c0c0c0;
+}
+ 
+.triple-menu-box .menus-box {
+  border-top: dashed 1px #c0c0c0;
+}
+ 
+.triple-menu-box .menus-box:first-child {
+  border-top: none;
+}
+ 
+.triple-menu-box .menu-label-title {
+  display: block;
+  padding: 20px 25px;
+  cursor: pointer;
+  position: relative;
+}
+ 
+.triple-menu-box .menu-label-title:hover {
+  background-color: #e5faff;
+}
+ 
+.triple-menu-box .menu-title {
+  display: block;
+  padding-right: 50px;
+}
+ 
+.triple-menu-box .menu-label-title span:nth-child(2),
+.triple-menu-box .menu-label-title span:nth-child(3) {
+  display: block;
+  width: 16px;
+  border-bottom: solid 1px #c0c0c0;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+ 
+.triple-menu-box .menu-label-title span:nth-child(2) {
+  transform: rotate(45deg);
+  right: 36px;
+}
+ 
+.triple-menu-box .menu-label-title span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+ 
+.triple-menu-box .menu-text {
+  display: none;
+  padding: 20px 0;
+  margin: 0 25px;
+  border-top: dotted 1px #c0c0c0;
+}
+ 
+/* 折り畳みメニューを追加する場合 */
+.triple-menu-box .menus-box #triple-check-box,
+.triple-menu-box .menus-box #triple-check-box2,
+.triple-menu-box .menus-box #triple-check-box3 {
+  display: none;
+}
+ 
+.triple-menu-box .menus-box #triple-check-box:checked ~ .menu-text,
+.triple-menu-box .menus-box #triple-check-box2:checked ~ .menu-text,
+.triple-menu-box .menus-box #triple-check-box3:checked ~ .menu-text {
+  display: block;
+}
+ 
+.triple-menu-box .menus-box #triple-check-box:checked ~ .menu-label-title span:nth-child(2),
+.triple-menu-box .menus-box #triple-check-box2:checked ~ .menu-label-title span:nth-child(2),
+.triple-menu-box .menus-box #triple-check-box3:checked ~ .menu-label-title span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+ 
+.triple-menu-box .menus-box #triple-check-box:checked ~ .menu-label-title span:nth-child(3),
+.triple-menu-box .menus-box #triple-check-box2:checked ~ .menu-label-title span:nth-child(3),
+.triple-menu-box .menus-box #triple-check-box3:checked ~ .menu-label-title span:nth-child(3) {
+  transform: rotate(45deg);
+}
+/* ここまで */
+
+#r_news {
+ margin-top: 5px;
+ height: 90px;/*スクロールの高さ*/
+ overflow-y: scroll;
+}
+
+.heading07 {
+ position: relative;
+ padding-top: 50px;
+ padding-left: 30px;
+ font-size: 26px;
+}
+
+.heading07 span {
+ position: relative;
+ z-index: 2;
+}
+
+.heading07::before {
+ content: attr(data-en);
+ position: absolute;
+ transform: rotate(-5deg);
+ top: -20px;
+ left: 0;
+ color: rgba(224,66,114,0.6);
+ font-size: 80px;
+ font-weight: 400;
+ font-family: luxus-brut, cursive;
+ font-style: italic;
+}
+.menu-box {
+  border: solid 1px #c0c0c0;
+}
+ 
+.menu-box .menu-label-title {
+  display: block;
+  padding: 20px 25px;
+  cursor: pointer;
+  position: relative;
+}
+ 
+.menu-box .menu-label-title:hover {
+  background-color: #e5faff;
+}
+ 
+.menu-box .menu-title {
+  display: block;
+  padding-right: 50px;
+}
+ 
+.menu-box .menu-label-title span:nth-child(2),
+.menu-box .menu-label-title span:nth-child(3) {
+  display: block;
+  width: 16px;
+  border-bottom: solid 1px #c0c0c0;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+ 
+.menu-box .menu-label-title span:nth-child(2) {
+  transform: rotate(45deg);
+  right: 36px;
+}
+ 
+.menu-box .menu-label-title span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+ 
+.menu-box .menu-text {
+  display: none;
+  padding: 20px 0;
+  margin: 0 25px;
+  border-top: dotted 1px #c0c0c0;
+}
+ 
+/* 折り畳みメニューを追加する場合 */
+.menu-box #check-box {
+  display: none;
+}
+ 
+.menu-box #check-box:checked ~ .menu-text {
+  display: block;
+}
+ 
+.menu-box #check-box:checked ~ .menu-label-title span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+ 
+.menu-box #check-box:checked ~ .menu-label-title span:nth-child(3) {
+  transform: rotate(45deg);
+}
+/* ここまで */
+
+.btn09 a span {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ width: 100%;
+ height: 100%;
+ background-color: #ceb849;
+ border: 1px solid transparent;
+ z-index: 2;
+}
+
+.btn09 a::after {
+ content: '';
+ position: absolute;
+ bottom: -5px;
+ right: -5px;
+ width: 100%;
+ height: 100%;
+ background-color: #bab38c;
+ z-index: 1;
+}
+
+.btn09 a:hover span {
+ background-color: #B99b00;
+ border: 1px solid #333;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 30px;
+  width: 32%;
+  background-color: #fff;
+}
+
+@media not all and (min-width: 768px) {
+  .item {
+    width: 100%;
+  }
+
+  .item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+ img.example1 {
+    width: 200px;
+    height: 280px;
+    }
+    
+    .suto {
+	background-color: #fcf0f1; /* 背景色 */
+	color: #701722; /* 文字色 */
+	padding: 30px; /* 余白 */
+	position: relative;
+}
+.suto:after {
+	background: repeating-linear-gradient(-45deg, #f0b8bf, #f0b8bf 5px, #fcf0f1 0, #fcf0f1 10px); /* ストライプ */
+	content: '';
+	height: 5px; /* ストライプの高さ */
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
