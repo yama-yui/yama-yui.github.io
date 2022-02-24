@@ -1,0 +1,307 @@
+<html>
+<head>
+<title>HTMLの練習帳　for yui</title>
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+
+</head>
+<body>
+<div class="mybox">
+<p>
+全国小動物連盟
+</p>
+</div>
+
+
+
+<center>
+<h1 class="suto">
+全国小動物大会
+</h1>
+</center>
+<div class="kakomi-te1">
+<h2 class="niku">
+飼い主との絆をより強く
+</h2>
+<p>
+全国小動物連盟は「飼い主」と「小動物」の絆をより強固なものにすることを目標に活動してきました．その活動の一部として全国小動物連盟では毎年小動物大会県予選，小動物大会地方予選，小動物全国大会を行なっています．
+<br/>
+</p>
+</div>
+<h2 class="niku">
+第222回小動物全国大会日程
+</h2>
+<font color="brown">
+<h3>
+<center>
+令和4年 3月15日 
+</center>
+</h3>
+</font>
+<font color="#777777">
+<p>
+小動物大会県予選　終了しました
+<br/>
+<br/>
+小動物大会地方予選　終了しました
+</p>
+</font>
+
+<h2 class="niku">
+申し込み方法
+</h2>
+<div class="menu-box">
+  <input id="check-box" type="checkbox">
+  <label class="menu-label-title" for="check-box">
+    <span class="menu-title">こちらをクリックしてください．
+    </span>
+    <span></span>
+    <span></span>
+  </label><!-- .menu-label-title -->
+  <div class="menu-text">
+    <p>
+    こちらのフォームに飼い主のお名前，メールアドレスを入力し,送信してください．後日，入力されたメールアドレス宛に大会要項を送信します．
+    </p>
+    <div class="cp_iptxt">
+ <input type="text" placeholder="お名前">
+ <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+</div>
+<div class="cp_iptxt">
+ <input type="text" placeholder="E-Mail">
+ <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+</div>
+    
+    <div class="btn btn09">
+ <a href="">送信</a>
+</div>
+  </div>
+</div><!-- .menu-box -->
+
+
+
+<h2 class="niku">
+大会参加者の声
+</h2>
+<font color="#777777">
+<table>
+  <tr>
+    <th>ハンドルネーム</th>
+    <th>参加回数</th>
+    <th>成績</th>
+    <th>感想</th>
+  </tr>
+  <tr>
+    <td class="icon bird">シャロム・G・V</td>
+    <td>第220回</td>
+    <td>全国大会優勝</td>
+    <td>この大会に参加して飼い主との絆がより一層深まったと感じています．全国大会に優勝することができ，今では幸せな生活を送っています．</td>
+  </tr>
+  <tr>
+    <td class="icon whale">ルビー・M</td>
+    <td>第221回</td>
+    <td>県予選突破</td>
+    <td>大会に出場することが決まってから飼い主との練習の毎日でした．練習を繰り返すうちにより絆が深まっていきました．</td>
+  </tr>
+  <tr>
+    <td class="icon crab">モービル・N</td>
+    <td>第219回</td>
+    <td>地方予選突破(北関東ブロック)</td>
+    <td>この大会に参加することで自分が小動物としてどのようにあるべきかを深く考えるきっかけになりました．</td>
+  </tr>
+</table>
+</font>
+
+<h2 class="niku">
+ミニコーナー 今日の絆🐇
+</h2>
+<center>
+<form><input type="button" value="クリックしてね" onClick="random()"> 
+<span id="omikuji">🐈</span></form>
+
+<script type="text/javascript">
+function random() {
+var rand = Math.floor( Math.random() * 5) ; //おみくじの目の生成
+        if (rand == 0) msg = "絆が深まる一日に！";
+ if (rand == 1) msg = "たくさん甘えさせよう！";
+ if (rand == 2) msg = "散歩に行くと良いことが？！";
+ if (rand == 3) msg = "大好物を与えよう！";
+ if (rand == 4) msg = "スキンシップをとろう！";
+document.getElementById("omikuji").innerHTML = msg; //おみくじの目の出力
+}
+</script>
+
+<h2 class = "niku">
+よくあるご質問
+</h2>
+
+
+<div class="triple-menu-box">
+  <div class="menus-box">
+    <input id="triple-check-box" type="checkbox">
+    <label class="menu-label-title" for="triple-check-box">
+      <span class="menu-title">出場資格ついて</span>
+      <span></span>
+      <span></span>
+    </label><!-- .menu-label-title -->
+    <div class="menu-text">
+      <li>年齢制限はありますか<br/><br/>
+いいえ．ありません．しかし飼い始めてから半年経過している必要があります．</li><br/><br/><br/>
+<li>飼育歴の規定はありますか.<br/><br/>
+はい．あります．飼い始めてから半年経過している必要があります</li><br/><br/><br/>
+<li>小動物の定義は何ですか．<br/><br/>
+小動物の定義は「自分が小動物だという自覚を持っていること」です．</li><br/><br/><br/>
+<li>重量や長さ，種類の規定はありますか．<br/><br/>
+一切ございません．どなたでも参加できます．</li>
+    </div>
+  </div><!-- .menus-box -->
+  <div class="menus-box">
+    <input id="triple-check-box2" type="checkbox">
+    <label class="menu-label-title" for="triple-check-box2">
+      <span class="menu-title">大会について</span>
+      <span></span>
+      <span></span>
+    </label><!-- .menu-label-title -->
+    <div class="menu-text">
+      <li>審査はだれが行うのですか．<br/><br/>
+全国小動物連盟幹部が行います．</li><br/><br/><br/>
+<li>小動物を変えてもう一度出場したい．<br/><br/>
+不可能です．一度契約した小動物を手放す行為は小動物愛護法第151条により，違反行為となります．しかし同じ小動物と再出場をすることは可能です．何度でも挑戦してください．</li><br/><br/><br/>
+<li>大会前に小動物が逃げ出しました．<br/><br/>
+捕まえてください．</li><br/><br/><br/>
+<li>大会当日に小動物の機嫌が悪いです．<br/><br/>
+機嫌を取ってください．</li>
+    </div>
+  </div><!-- .menus-box -->
+  <div class="menus-box">
+    <input id="triple-check-box3" type="checkbox">
+    <label class="menu-label-title" for="triple-check-box3">
+      <span class="menu-title">新型ポロナウイルス対策について</span>
+      <span></span>
+      <span></span>
+    </label><!-- .menu-label-title -->
+    <div class="menu-text">
+       <li>新型ポロナウイルスのため出場を辞退した場合の救済措置(返金や繰り上げ出場)はありますか．<br/><br/>
+返金の対応は行っておりません．次回一回のみの出場資格を認めます．しかし，いかなる場合においても県予選からの出場となります．</li><br/><br/><br/>
+<li>当日に小動物に発熱症状がありました．欠席連絡はどこにすればよいですか．<br/><br/>
+新型ポロナウイルス対策ガイドラインのヘルスチェックに該当した場合は以下のヘルプセンターにお問い合わせください．
+<a href="https://twitter.com/mihairu1414?s=11">ヘルプセンター（１３：００～５：００）</a></li><br/><br/><br/>
+<li>会場の新型ポロナウイルス対策を教えてください．<br/><br/>
+屋外競技に関しては小動物間，飼い主間に２ｍの間隔があくように設定されています．屋内競技に関しても同様で，さらに換気を行なっています．各競技場にはヒト用，小動物用の消毒のご用意もございます．</li><br/>
+    </div>
+  </div><!-- .menus-box -->
+  <!-- 折り畳みメニューを追加する場合はこの下に追加 -->
+</div><!-- .triple-menu-box -->
+
+
+
+
+ <h2 class = "niku">
+   公式対策本について
+   </h2>
+   <p>
+   <left>
+   全国小動物連盟では公式対策本を出版しています．
+   </left>
+   </p>
+   
+   
+   <div id="cards">
+  <div class="card">
+    <div class="picture"><img
+                src="https://drive.google.com/uc?export=view&id=1yjF_Q_vm_pK15mw05Q1nlbsroRofZ4AP&usp=sharing"
+                class="example1"></div>
+    <div class="description">
+      <p>
+      20日でマスター！小動物大会の極意
+        3500円
+      </p>
+    </div>
+  </div>
+  <div class="card" id="card-center">
+    <div class="picture"><img
+                src="https://drive.google.com/uc?export=view&id=1qC-c_5kQDxLdeYCjbByQuPuoK3YT79-N&usp=sharing"
+                class="example1"></div>
+    <div class="description">
+      <p>
+      小動物のきもち
+        2800円
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="picture"><img
+                src="https://drive.google.com/uc?export=view&id=1NAC5P2mQRVeRDSWPbopl3F9xn-8DCFHV&usp=sharing"
+                class="example1"></div>
+    <div class="description">
+      <p>
+        絶体優勝できる 小動物大会<br/>
+        2500円
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  #cards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    width: 300px;
+    height: 315px;
+    border: 1px solid lightgray;
+  }
+
+  .card:nth-child(2) {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .picture img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .description {
+    width: 100%;
+    height: 145px;
+    padding-right: 12px;
+    padding-left: 12px;
+    box-sizing: border-box;
+  }
+
+  .description p {
+    font-size: 13px;
+    color: dimgray;
+  }
+</style>
+
+<div class="section">
+   <h2 class = "niku">
+   お知らせ
+   </h2>
+   <div id="r_news" >
+  <p>
+  2022.2.22  第222回小動物全国大会の会場が決定しました．
+  </p>
+  <p>
+  2022.1.10  第222回小動物地方予選の結果が決まりました．通過者には書類を郵送しました．
+  </p>
+  <p>
+  2021.12.20  新型ポロナウイルス対策ガイドラインを改訂しました．(Ver.2)
+   
+<p><a href="https://drive.google.com/file/d/1ZGxqTgSpUNObSuoVBRaAXaFHKgN-B7bG/view?usp=sharing" target="_blank">新型ポロナウイルス対策ガイドラインVer.2.0</a></p>
+
+  </p>
+ </div>
+</div>
+
+
+
+<br/><br/>
+<center>
+<p>
+全国小動物連盟
+</p>
+</center>
