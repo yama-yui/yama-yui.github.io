@@ -101,9 +101,3 @@ padding: 5px 10px;
   transform: rotate(45deg);
 }
 /* ここまで */
-
-/*分割*/
-/*余白*/
-.yohaku2 { width:60%; float:left; }
-.yohaku1 { width:40%; float:left; }
-.yuityan{ border-bottom: double 5px #312b2c;}
