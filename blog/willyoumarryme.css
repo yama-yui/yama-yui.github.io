@@ -1,0 +1,104 @@
+.openbox input {
+display: none; /* チェックボックスを隠す */
+}
+.openbox .boxshow {
+height: 0;
+opacity: 0; /* 折り畳んだ時に中を透明にする */
+}
+.inputcss:checked + .boxshow {
+height: auto;
+opacity: 1; /*クリックやタップで中を表示させる*/
+}
+.openbox label {
+background: #babbbb;
+padding: 5px 10px;
+}
+
+.triple-menu-box {
+  border: solid 1px #c0c0c0;
+}
+ 
+.triple-menu-box .menus-box {
+  border-top: dashed 1px #c0c0c0;
+}
+ 
+.triple-menu-box .menus-box:first-child {
+  border-top: none;
+}
+ 
+.triple-menu-box .menu-label-title {
+  display: block;
+  padding: 20px 25px;
+  cursor: pointer;
+  position: relative;
+}
+ 
+.triple-menu-box .menu-label-title:hover {
+  background-color: #e5faff;
+}
+ 
+.triple-menu-box .menu-title {
+  display: block;
+  padding-right: 50px;
+}
+ 
+.triple-menu-box .menu-label-title span:nth-child(2),
+.triple-menu-box .menu-label-title span:nth-child(3) {
+  display: block;
+  width: 16px;
+  border-bottom: solid 1px #c0c0c0;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+ 
+.triple-menu-box .menu-label-title span:nth-child(2) {
+  transform: rotate(45deg);
+  right: 36px;
+}
+ 
+.triple-menu-box .menu-label-title span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+ 
+.triple-menu-box .menu-text {
+  display: none;
+  padding: 20px 0;
+  margin: 0 25px;
+  border-top: dotted 1px #c0c0c0;
+}
+ 
+/* 折り畳みメニューを追加する場合 */
+.triple-menu-box .menus-box #triple-check-box,
+.triple-menu-box .menus-box #triple-check-box2,
+.triple-menu-box .menus-box #triple-check-box3 {
+  display: none;
+}
+ 
+.triple-menu-box .menus-box #triple-check-box:checked ~ .menu-text,
+.triple-menu-box .menus-box #triple-check-box2:checked ~ .menu-text,
+.triple-menu-box .menus-box #triple-check-box3:checked ~ .menu-text {
+  display: block;
+}
+ 
+.triple-menu-box .menus-box #triple-check-box:checked ~ .menu-label-title span:nth-child(2),
+.triple-menu-box .menus-box #triple-check-box2:checked ~ .menu-label-title span:nth-child(2),
+.triple-menu-box .menus-box #triple-check-box3:checked ~ .menu-label-title span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+ 
+.triple-menu-box .menus-box #triple-check-box:checked ~ .menu-label-title span:nth-child(3),
+.triple-menu-box .menus-box #triple-check-box2:checked ~ .menu-label-title span:nth-child(3),
+.triple-menu-box .menus-box #triple-check-box3:checked ~ .menu-label-title span:nth-child(3) {
+  transform: rotate(45deg);
+}
+/* ここまで */
+
+/*分割*/
+/*余白*/
+.yohaku2 { width:60%; float:left; }
+.yohaku1 { width:40%; float:left; }
+.yuityan{ border-bottom: double 5px #312b2c;}
