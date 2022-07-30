@@ -101,3 +101,14 @@ padding: 5px 10px;
   transform: rotate(45deg);
 }
 /* ここまで */
+
+.btn {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  padding: 1px 1px;
+  background-color:white;
+  display: block;
+  color: #008000;
+  
+}
