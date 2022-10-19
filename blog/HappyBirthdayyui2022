@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Happy Birthday Yui, 2021</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet_blog.css">
+</head>
+
+<body>
+
+    <br />
+    <center>
+  <div class="summer_bargain">
+    <div class="summer_bargain_inner">
+      <span class="blue">誕</span><span class="green">生</span><span class="blue">日</span><br><strong>おめでとう！</strong>
+    </div>
+</div>
+    </center>
+    
+    <br />
+    <center>
+    
+<div class="boxmi14">
+<div class="boxmi14-title">タイトル</div>
+<div class="sen14">
+ボックスのデザインサンプルです。
+ここにポイントや目立たせたい文章などを書いてくださいね。
+文章を入力するとこんな感じです。
+</div></div>
+
+
+
+</body>
+
+</html>
