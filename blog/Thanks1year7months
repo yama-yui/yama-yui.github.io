@@ -1,0 +1,380 @@
+<html>
+<head>
+    <title>HTMLの練習帳　for yui</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet_willyoumarryme.css">
+</head>
+  
+ <p>
+      <img src="https://drive.google.com/uc?export=view&id=1UVhF20Iry-RNGvby4xCry4aYCLgs1YNV&usp=sharing" height = "30">
+Yamada Moodle   日本語　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+     <img src="https://drive.google.com/uc?export=view&id=1cxdC1svptPpBJSSuNw8uV-XxZrQbQ2iB&usp=sharing" height = "30">
+    <font color ='blue'>
+        NAMIKI,Miharu　並木海大
+    </font>
+</p>
+
+<h2>
+    <img src="https://drive.google.com/uc?export=view&id=1HdXqs8Ot4nFe7dAm86l8iZG03creWerB&usp=sharing" height = "30">
+デートプランニング演習
+
+    </h2>
+
+<p>
+<font color ='blue'>
+ダッシュボード
+</font>
+<font color ='black'>
+/
+</font>
+<font color ='blue'>
+マイコース
+</font>
+<font color ='black'>
+/
+</font>
+<font color ='blue'>
+正規科目
+</font>
+<font color ='black'>
+/
+</font>
+<font color ='blue'>
+ZH理工学術院
+</font>
+<font color ='black'>
+/
+</font>
+<font color ='blue'>
+創造理工学部
+</font>
+<font color ='black'>
+/
+</font>
+<font color ='blue'>
+2022
+</font>
+<font color ='black'>
+/
+</font>
+<font color ='blue'>
+デートプランニング演習
+</font>
+<font color ='black'>
+/
+</font>
+
+<div class = 'yohaku1'>
+<p>
+   <img src="https://drive.google.com/uc?export=view&id=1ftIg6hTek5YWYpG8W64q3HvYe23S1u4a&usp=sharing" height = "30">
+<font Color = 'blue'>
+アナウンスメント/Announcement
+<br>
+    　　　
+<span style= "background-color: #ffffe0">
+未読件数 731
+</span>
+</font>
+</p>
+
+<p style="background-color:#696969">
+<font color  ='white'>
+▶️全て展開する ▶️全て折り畳む
+</font>
+<br>
+<font color  ='white'>
+解説 : セクション名をクリックすることでセクションを展開したり折りたたんだりすることができます。
+</font>
+</p>
+
+<div class="triple-menu-box">
+  <div class="menus-box">
+    <input id="triple-check-box" type="checkbox">
+    <label class="menu-label-title" for="triple-check-box">
+      <span class="menu-title">▶️講義１：ガイダンス</span>
+      <span></span>
+      <span></span>
+    </label><!-- .menu-label-title -->
+    <div class="menu-text">
+         <img src="https://drive.google.com/uc?export=view&id=1SZnQyJfqcD8OhySBVfgzt0CTo_cj-d6A&usp=sharing" height = "30">
+
+    <font color ='blue'>
+      第一回オリエンテーション動画
+      </font>
+      <br><br>
+      
+      <iframe width="400" height="225" src="https://www.youtube.com/embed/AnggfkejNLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+<br><br>
+<a href = "https://www.youtube.com/embed/AnggfkejNLo">
+  動画が閲覧できない生徒はこちらから
+</a>
+
+    </div>
+  </div><!-- .menus-box -->
+  <div class="menus-box">
+    <input id="triple-check-box2" type="checkbox">
+    <label class="menu-label-title" for="triple-check-box2">
+      <span class="menu-title">▶️講義２：京都旅行</span>
+      <span></span>
+      <span></span>
+    </label><!-- .menu-label-title -->
+    <div class="menu-text">
+     <p>
+<font color = 'red'>
+ ※ デート中，許可なくスマートフォン及びその他電子機器を使用した場合，春学期デートプランニング演習だけでなく今季すべての科目を不合格とする．
+</font>
+</p>
+
+<h4>
+    <img src="https://drive.google.com/uc?export=view&id=1W-VDYsH5zZDBke34du1KeHJYLqX7nbO7&usp=sharing" height = "30">
+<font color = "blue">
+1日目
+</font>
+</h4>
+
+<font color = "#696969">
+
+<p>
+<font color = "blue">
+7:00</font>  祇園四条駅着，朝ごはん
+<br><br>
+
+-市営バス-
+
+<br><br>
+<font color = "blue">
+9:00</font>　
+<br>
+時間見つつこの中から選ぼう！
+<br>
+途中でお昼ご飯食べようね(^^)
+<br><br>
+・北野天満宮（拝観時間 5:00～18:00 拝観料　無料）
+<br>
+・金閣寺（拝観時間 9:00～17:00 拝観料　400円）
+<br>
+・二条城（拝観時間 8:45～16:00 拝観料　入場のみ 800円）
+<br>
+・龍安寺（拝観時間 8:00～17:00 拝観料　 500円）
+<br>
+・仁和寺（拝観時間 9:00～17:00 拝観料　800円）
+<br>
+<br>
+<font color = "blue">
+15:00 ~ 17:00
+</font>
+ホテルチェックイン
+<br>
+だらだらいちゃいちゃタイム
+<br><br>
+<font color = "blue">
+良い感じの時間</font>　散歩タイム
+<br>
+<br>
+祇園四条ぶらりパート１（ちなみにホテルから歩いて25分，電車で15分らしい）
+<br>
+・錦市場(ホテルからだとこの中で一番近い！)
+<br>
+・八坂神社（拝観時間　24時間 拝観料　無料）
+<br>
+・八坂庚申堂（拝観時間　9：00～17：00 拝観料　入場のみ 無料）
+<br>
+・八坂の塔（拝観時間　10:00～15:00 拝観料　400円）
+<br>
+・円山公園（拝観時間　24時間 拝観料　無料）
+<br>
+・花道小路散歩
+<br>
+・祇園白川散歩
+<br>
+<br>
+<button type="button"  class="btn">✓完了</button>
+
+
+
+</p>
+</font>
+
+
+<h4>
+     <img src="https://drive.google.com/uc?export=view&id=1W-VDYsH5zZDBke34du1KeHJYLqX7nbO7&usp=sharing" height = "30">
+<font color = "blue">
+2日目
+</font>
+</h4>
+<font color = "#696969">
+
+<font color = "blue">
+8:00 </font>起床
+<br><br>
+<font color = "blue">
+10:00</font> 出発
+<br>
+祇園四条orホテルのそばで朝ごはん
+<br>
+<br>
+烏丸→阪急京都戦→桂→阪急嵐山駅（230円）
+<br><br>
+<font color = "blue">
+12:00</font> 嵐山駅着
+
+<br>
+<br>
+渡月橋で写真撮る
+<br>
+↓
+<br>
+キモノフォレスト
+<br>↓<br>
+天龍寺（拝観時間 8:30～17:30 拝観料　 500円）
+<br>↓<br>
+竹林の小径
+<br><br>
+<font color = "blue">
+16:00～17:00　
+</font>
+<br>
+阪急嵐山駅→桂→阪急京都線→京都河原町→（歩き）祇園四条（230円）
+<br><br>
+<font color = "blue">
+良い感じの時間まで　</font>
+散歩タイムパート2
+<br><br>
+</font>
+<button type="button"  class="btn">✓完了</button>
+<br>
+<h4>
+     <img src="https://drive.google.com/uc?export=view&id=1W-VDYsH5zZDBke34du1KeHJYLqX7nbO7&usp=sharing" height = "30">
+<font color = "blue">
+3日目
+</font>
+</h4>
+荷物どうするか問題は後で話し合おう...!
+<br><br>
+<font color = "#696969">
+<font color = "blue">
+8:00 </font>起床
+<br><br>
+<font color = "blue">
+10:00</font> 出発
+<br>
+祇園四条ぶらり散歩and清水で朝ごはん
+
+<br><br>
+
+-市営バス-
+
+<br><br>
+<font color = "blue">
+12:00</font>
+<br>
+清水周辺散策！お昼ご飯
+<br>
+・清水寺（拝観時間 6:00～18:00 拝観料　 500円）
+<br>
+・音羽の滝
+<br>
+・散歩
+<br><br>
+<font color = "blue">
+15:00</font>
+<br>
+<font color = red>
+<p>
+どこいくかバスとかホテルで話そう
+</p>
+</font>
+<font color = "blue">
+18:00</font>
+<br>
+祇園四条→京阪本線→東福寺→奈良線
+<br>
+<br>
+<font color = "blue">
+18:30</font>
+京都駅着
+<br><br>
+京都タワー！
+<br><br>
+みはるくんの案件の時間までお土産観光
+<br><br>
+<font color = "blue">
+21:30</font>
+<br>
+京都駅八条口G2乗り場
+</font>
+        <button type="button"  class="btn">✓完了</button>
+    </div>
+  </div><!-- .menus-box -->
+
+    
+  <div class="menus-box">
+    <input id="triple-check-box3" type="checkbox">
+    <label class="menu-label-title" for="triple-check-box3">
+      <span class="menu-title">▶️講義５：学習のまとめ</span>
+      <span></span>
+      <span></span>
+    </label><!-- .menu-label-title -->
+    <div class="menu-text">
+        <img src="https://drive.google.com/uc?export=view&id=187T2OLmYMDxDxVzG7mlEvykv39ilLu7a&usp=sharing" height = "30">
+        
+    <font color ='blue'>
+    期末レポート
+    </font>
+    <br><br>
+ 
+  <span style="background-color: #008080">
+  <font color ='white'>
+  利用制限
+  </font>
+  </span>
+    　　2022年10月21日より利用可
+  </p>
+
+  <br>
+    
+ゆいちゃまんに伝えたい思いをこれまでの経験をもとに自由に論じてください。文字数は1000字~2000字程度、乙女心をくすぐるような文章であるかどうかを重視して評価します。Yamada Moodleからファイルを提出することはできないので、やまゆいちゃんのLINE当て，もしくは添付ファイルでメールで送ってください。
+
+<br><br>
+<p style="background-color:#f5f5f5">
+提出ステータス　　　未提出
+</p>
+評価ステータス　　　未採点
+<br>　　
+<p style="background-color:#f5f5f5">
+残り時間　　　　　　2022/10/22まで
+</p>
+最終更新日時
+<br>
+<p style="background-color:#f5f5f5">
+提出コメント
+</p>
+<br><br>
+<center>
+<span style= "background-color: #c0c0c0">
+　提出物をアップロード・入力する　
+</span>
+
+<br>
+あなたはまだ提出していません。
+</center>
+    </div>
+  </div><!-- .menus-box -->
+  <!-- 折り畳みメニューを追加する場合はこの下に追加 -->
+</div><!-- .triple-menu-box -->
+</div>
+
+
+<div class = 'yohaku2'>
+<p style="background-color:#dcdcdc">
+Message My Teacher
+</p>
+<font color = 'blue'>
+ ・ YAMA,Yui やまゆい
+</font>
+</div>
+
+  
+</html>
