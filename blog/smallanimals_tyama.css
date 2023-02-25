@@ -1,0 +1,63 @@
+.heart {
+  font-size: 80px;
+  color: #FF3D67;
+  margin: 100px 0 0
+}
+.heart:hover {
+  -webkit-animation: heart-anim 1s linear .3s;
+  animation: heart-anim 1s linear .3s;
+}
+
+/* Animation setting */
+@-webkit-keyframes heart-anim {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(50);
+  }
+}
+@keyframes heart-anim {
+  to {
+    opacity: 0;
+    transform: scale(50);
+  }
+}
+
+/* Basic style */
+body {
+  text-align: center;
+}
+
+.wf-roundedmplus1c { font-family: "Rounded Mplus 1c"; }
+.wf-hannari { font-family: "Hannari"; }
+
+/*ここから*/
+body {
+  background-color: #fff0f5;
+}
+
+/*ここから*/
+
+section {
+  max-width: 300px;
+  margin: 0 auto;
+}
+a.btn_11 {
+  display: inline-block;
+  color: #191970;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-left: 1.2em;
+  text-indent: -1.2em;
+  text-decoration: none;
+}
+a.btn_11 span:before {
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid #004386;
+  border-right: 2px solid #004386;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-right: 10px;
+}
